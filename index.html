@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Weather Dashboard</title>
+
+    <!--CSS ref sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--JavaScript ref sheet-->
+
+
+
+    <!--CSS Font Awesome ref -->
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--load all styles -->
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <header class="jumbotron">
+        <h1 class="display-3">Weather Dashboard</h1>
+        <p id="currentDay" class="lead"></p>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-3 city-search">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="city-input" placeholder="Enter City"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+                    </div>
+                </div>
+                <ul id="history"></ul>
+            </div>
+            <div class="col-9">
+                <div id="current-weather" class="m-2"></div>
+                <div id="weather-forecast" class="row m-2"></div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+    <!-- // < !--Option 1: Bootstrap Bundle with Popper-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src=" main.js"></script>
+
+
+
+</body>
+
+</html>

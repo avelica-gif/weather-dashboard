@@ -1,0 +1,58 @@
+.jumbotron {
+    text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid rgb(252, 248, 248);
+  background: repeating-linear-gradient(
+  45deg,
+  #d7daee,
+  #9aa7f5 10px,
+  #a1b3ee 10px,
+  #7ab6ee 20px
+);
+}
+
+.sidebar {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    background-color: #8ec891;
+}
+
+
+
+.search {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+/* .card {
+    position:absolute;
+    float: left;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #78a9f1;
+    padding: 10px;
+
+} */
+
+.weatherInfo {
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+img {
+    width: 100px;
+}
+
